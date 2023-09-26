@@ -1,0 +1,14 @@
+digraph "packages" {
+rankdir=BT
+charset="utf-8"
+"pico" [color="black", label=<pico>, shape="box", style="solid"];
+"pico.dht" [color="black", label=<pico.dht>, shape="box", style="solid"];
+"pico.main" [color="black", label=<pico.main>, shape="box", style="solid"];
+"pico.main1" [color="black", label=<pico.main1>, shape="box", style="solid"];
+"pico.pwm" [color="black", label=<pico.pwm>, shape="box", style="solid"];
+"pico.servo" [color="black", label=<pico.servo>, shape="box", style="solid"];
+"pico.soilmoisture" [color="black", label=<pico.soilmoisture>, shape="box", style="solid"];
+"pico.try" [color="black", label=<pico.try>, shape="box", style="solid"];
+"pico.main1" -> "pico.dht" [arrowhead="open", arrowtail="none"];
+"pico.main1" -> "pico.servo" [arrowhead="open", arrowtail="none"];
+}

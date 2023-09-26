@@ -1,0 +1,10 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"pico.dht.DHT11" [color="black", fontcolor="black", label=<{DHT11|humidity<br ALIGN="LEFT"/>temperature<br ALIGN="LEFT"/>|measure()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"pico.dht.InvalidChecksum" [color="black", fontcolor="red", label=<{InvalidChecksum|<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"pico.dht.InvalidPulseCount" [color="black", fontcolor="red", label=<{InvalidPulseCount|<br ALIGN="LEFT"/>|}>, shape="record", style="solid"];
+"pico.pwm.PWMMotor" [color="black", fontcolor="black", label=<{PWMMotor|IN1<br ALIGN="LEFT"/>IN2<br ALIGN="LEFT"/>speed<br ALIGN="LEFT"/>|start_dc()<br ALIGN="LEFT"/>stop_dc()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"pico.servo.ServoMotor" [color="black", fontcolor="black", label=<{ServoMotor|pwm<br ALIGN="LEFT"/>|start()<br ALIGN="LEFT"/>stop()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"pico.soilmoisture.SoilMoisture" [color="black", fontcolor="black", label=<{SoilMoisture|max_moisture : int<br ALIGN="LEFT"/>min_moisture : int<br ALIGN="LEFT"/>|get_moisture()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}
